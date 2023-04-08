@@ -1,0 +1,1032 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Appiya - App Landing Page</title>
+		<link rel="icon" href="image/favicon.ico" type="image/favicon" />
+		<link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+		<link rel="stylesheet" href="css/owl.carousel.css" type="text/css" />
+		<link rel="stylesheet" href="css/owl.theme.default.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/animate.min.css" type="text/css" />
+		<link rel="stylesheet" href="css/icofont.css" type="text/css" />	
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" >
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500&display=swap" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script src="js/owl.carousel.min.js"></script>
+		
+		
+
+
+		<script>
+			$(document).ready(function(){
+				$('.owl-carousel-1').owlCarousel({
+					loop:true,
+					margin:0,
+					nav:false,
+					dots: true,
+					autoplay: true,
+					autoplayTimeout: 2000,
+					autoplayHoverPause: true,
+					items: 1,
+					})
+				});
+			</script>
+		
+			
+							
+		<script  type="text/javascript">
+			$(document).ready(function(){
+				$('.owl-carousel-2').owlCarousel({
+					loop:true,
+					margin:10,
+					nav:true,
+					dots:false,
+					center:true,
+					responsive:{
+								0:{
+									items:1
+								},
+								
+								576:{
+									items:3
+									}
+								}
+							})
+						
+			
+				$( ".owl-prev").html('<i class="icofont-stylish-left"></i>');
+				$( ".owl-next").html('<i class="icofont-stylish-right"></i>');
+			
+			});
+
+
+				
+					//~ Scroll to Top
+					$(document).ready(function(){
+						$(window).scroll(function(){
+							if ($(this).scrollTop() > 100) {
+								$('html').addClass('on');
+							} else {
+								$('html').removeClass('on');
+							}
+						});
+						//Click event to scroll to top
+						$(".top-btn").click(function(){
+							$('body').animate({scrollTop : 0} , 800);
+						});
+					});
+			</script>
+			
+						
+
+				<script>
+					$(document).ready(function(){
+						$(".toggle-manu").click(function(){
+							$("html").toggleClass("show");
+						})
+
+						$(".plus").click(function(){
+							$(this).parent().toggleClass("sub-manushow");
+						})
+						
+						$(".gradiant-icon").click(function(){
+							$("html").toggleClass("show1");
+						})
+							$("section").click(function(){
+							$("html").removeClass("show1");
+						});
+						
+
+						$(window).scroll(function(){
+							var scroll = $(window).scrollTop();
+							if (scroll>50){
+								$("header").addClass("colorss");
+							}
+							else{
+								$("header").removeClass("colorss");
+							}
+						});
+
+					})
+
+					$(window).on('load',function(){
+						$('.load').addClass('complete')
+					});
+		
+				</script>	
+
+
+
+		<script>
+			$(document).ready(function(){
+				$(".toggle-menu").click(function(){
+					$("html").toggleClass("show");
+				})
+
+				$(".btn-MAIN").click(function(){
+					$("html").addClass("MAIN");
+					$("html").removeClass("red");
+					$("html").removeClass("green");
+					$("html").removeClass("yellow");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+			
+				})
+				$(".btn-red").click(function(){
+					$("html").addClass("red");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("yellow");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+
+				})
+				
+				$(".btn-green").click(function(){
+					$("html").addClass("green");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("red");
+					$("html").removeClass("yellow");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+				})
+				$(".btn-pink").click(function(){
+					$("html").addClass("pink");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("yellow");
+					$("html").removeClass("red");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+				})
+				$(".btn-yellow").click(function(){
+					$("html").addClass("yellow");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+				})
+				$(".btn-yellow1").click(function(){
+					$("html").addClass("yellow1");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+
+				})
+				$(".btn-blue").click(function(){
+					$("html").addClass("blue");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+				})
+				$(".btn-white").click(function(){
+					$("html").addClass("white");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+				})
+				$(".btn-white1").click(function(){
+					$("html").addClass("white1");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+				})
+				$(".btn-white2").click(function(){
+					$("html").addClass("white2");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white3");
+					$("html").removeClass("white4");
+
+				})
+				$(".btn-white3").click(function(){
+					$("html").addClass("white3");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white4");
+				})
+				$(".btn-white4").click(function(){
+					$("html").addClass("white4");
+					$("html").removeClass("MAIN");
+					$("html").removeClass("green");
+					$("html").removeClass("red");
+					$("html").removeClass("pink");
+					$("html").removeClass("yellow");
+					$("html").removeClass("yellow1");
+					$("html").removeClass("blue");
+					$("html").removeClass("white");
+					$("html").removeClass("white1");
+					$("html").removeClass("white2");
+					$("html").removeClass("white3");
+
+				})
+				
+			})
+		</script>		
+				
+	</head>
+	
+	<body>		
+			<div class="load">
+				<div class="blobs">
+					<div class="blob-center"></div>
+					<div class="blob"></div>
+					<div class="blob"></div>
+					<div class="blob"></div>
+					<div class="blob"></div>
+					<div class="blob"></div>
+					<div class="blob"></div>
+				</div>
+				<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+					<defs>
+						<filter id="goo">
+							<feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+							<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+							<feBlend in="SourceGraphic" in2="goo" />
+						</filter>
+					</defs>
+				</svg>
+			</div>			
+	
+			<button class="top-btn"><i class="icofont-bubble-up"></i></button>
+			<div class="gradiant-setting">
+				<div class="gradiant-color">
+					<div class="bg2">
+						<h4>GREDIENT BG :</h4>
+							<button class="grdcolor btn-MAIN"></button>
+							<button class="grdcolor btn-red"></button>
+							<button class="grdcolor btn-green"></button>
+							<button class="grdcolor btn-pink"></button>
+							<button class="grdcolor btn-yellow"></button>
+							<button class="grdcolor btn-yellow1"></button>
+					</div>
+					<div class="bg2">
+						<h4>SVG BG :</h4>
+							<button class="grdcolor btn-blue"></button>
+							<button class="grdcolor btn-white"></button>
+							<button class="grdcolor btn-white1"></button>
+							<button class="grdcolor btn-white2"></button>
+							<button class="grdcolor btn-white3"></button>
+							<button class="grdcolor btn-white4"></button>
+					</div>
+				</div>
+				<div class="gradiant-icon">
+					<i class="icofont-ui-settings"></i>
+				</div>
+			</div>
+			<header>
+							
+				<div class="container">
+					<div class="header-menu">
+						<div class="logo">
+							<img src="image/logo.png" />
+						</div>
+						<div class="toggle-manu">
+							<i class="icofont-navigation-menu"></i>
+						</div>
+							<nav>
+								<ul>
+									<li><a href="#">Home</a></li>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Feature</a></li>					
+									<li><a href="#">Testimonial</a></li>
+									<li><a href="#">Screenshot</a></li>
+									<li><a href="#">Price</a></li>
+									<li class="sub-manu-add"><a href="#">Blog <i class="icofont-rounded-down"></i></a>
+										<span class="plus"><i class="icofont-plus"></i></span>
+										<ul class="sub-menu">
+											<li><a href="#">&nbsp &nbsp Blog Full</a></li>
+											<li><a href="#">&nbsp &nbsp Blog 2 col</a></li>
+											<li><a href="#">&nbsp &nbsp Blog 3 col</a></li>
+											<li><a href="#">&nbsp &nbsp Blog left sidebar</a></li>
+											<li><a href="#">&nbsp &nbsp Blog right sidebar</a></li>
+											<li><a href="#">&nbsp &nbsp Blog right sidebar</a></li>
+											<li><a href="#">&nbsp &nbsp Single blog</a></li>
+											<li><a href="#">&nbsp &nbsp Single left sidebar</a></li>
+											<li><a href="#">&nbsp &nbsp Single right sidebar</a></li>
+										</ul>
+									</li>
+									<li><a href="#">Contact</a></li>
+								</ul>	
+							</nav>
+				
+
+					</div>
+				</div>
+			</header>
+		
+		
+		<section class="m1">
+			<div class="round131"></div>
+				<div class="round131 cx0"></div>
+				<div class="round131 cx1"></div>
+				<div class="round131 cx2"></div>
+				<div class="round131 cx3"></div>
+				<div class="round131 cx4"></div>
+				<div class="round131 cx5"></div>
+				<div class="round131 cx6"></div>
+				<div class="round131 cx7"></div>
+				<div class="round131 cx8"></div>
+				<div class="round131 cx9"></div>
+			
+			<div class="container container-fluid1">
+				<div class="box2">
+					<div class="box3">
+							<h1>Perefect Design.</br> 
+							Incredible Experience.</h1>
+							<p>Abilities or he perfectly pretended so strangers be exquisite. 
+							Oh to another chamber pleased imagine do in. Went me rank at last loud shot an draw.</p>
+						<div class="dmbox">
+							<a href="#" class="dbox animate-btn"> Download App</a>
+							<a href="#" class="mbox animate-btn">More Details</a>
+						</div>
+					</div>
+					<div class="imbox">
+						<img src="image/hero-mock.png"/>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+		<section class="mainbox">
+			<div class="round19"></div>
+			<div class="container">
+				<div class="headding">
+					<h1>APP FEATURES</h1>
+				</div>
+				<div class="row">
+					<div class="col">			
+						<div class="innar">
+							<div class="items">
+								<i class="icofont-drawing-tablet"></i>
+								<h3>Easy Installation</h3>
+								<p>Way nor furnished sir procuring therefore but. Warmth far manner myself active are cannot</p>
+							</div>
+							<div class="items">
+								<i class="icofont-responsive"></i>
+								<h3>Responsive Design</h3>
+								<p>Way nor furnished sir procuring therefore but. Warmth far manner myself active are cannot</p>
+							</div>
+							<div class="items">
+								<i class="icofont-ui-note"></i>
+								<h3>Flexible Interface</h3>
+								<p>Way nor furnished sir procuring therefore but. Warmth far manner myself active are cannot</p>
+							</div>
+							<div class="items">
+								<i class="icofont-file-avi-mp4"></i>
+								<h3>High Resolution</h3>
+								<p>Way nor furnished sir procuring therefore but. Warmth far manner myself active are cannot</p>
+							</div>
+							<div class="items">
+								<i class="icofont-code-alt"></i>
+								<h3>Bug Free Code</h3>
+								<p>Way nor furnished sir procuring therefore but. Warmth far manner myself active are cannot</p>
+							</div>
+							<div class="items">
+								<i class="icofont-cloud-refresh"></i>
+								<h3>Cloud Storage</h3>
+								<p>Way nor furnished sir procuring therefore but. Warmth far manner myself active are cannot</p>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="img-1">
+							<div class="square1"></div>
+								<div class="img-2">
+									<img class="image1" src="image/iphone-1.png" />
+									<img class="image2" src="image/iphone-2.png" />
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		
+<!---------------------------------------------------- section-4		------------------------------------------>
+		<section class="m4" >
+			<div class="left-top-round"></div>
+			<div class="container">
+				<div class="mbox5">
+					<div class="imbox3">
+						<img src="image/experience.png" />
+					</div>
+					<div class="sbox7">
+						<div class="font-effect">
+							<span>E</span><span>X</span><span>P</span><span>E</span><span>N</span><span>C</span><span>E</span><span>A</span><span>W</span><span>S</span><span>O</span><span>M</span><span>E</span><span>,</span>
+							<span>M</span><span>O</span><span>D</span><span>E</span><span>R</span><span>N</span><span>A</span><span>P</span><span>P</span>
+					
+						</div>
+						
+						<P>Now for manners use has company believe parlors. Least nor party who wrote while did. Excuse formed as is agreed admire so on result parish. Put use set uncommonly announcing and travelling. Allowance sweetness direction to as necessary. Principle oh explained excellent do my suspected conveying in. Excellent you did therefore perfectly supposing described.</P>
+						<div class="more-detail-btn-main">
+							<div class="more-detail-btn animate-btn">
+								<a href="#">More Detail</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="m5">
+			<div class="right-top-round"></div>
+			<div class="container">
+				<div class="mbox6">				
+					<div class="sbox8">
+						<h2>Download App</h2>
+						<p>Over fact all son tell this any his. No insisted confined of weddings to returned to debating rendered. Keeps order fully so do party means young. Table nay him jokes quick.</p>
+						<div class="sbtn1">
+							<a href="#" class="animate-btn"><i class="icofont-brand-android-robot"></i>Available on</br>Google store</a>
+							<a href="#" class="animate-btn"><i class="icofont-brand-apple"></i>Available on</br>Apple store</a>			
+						</div>
+					</div>
+					<div class="imbox10">
+						<div class="simg4">
+							<img src="image/6mockup1.png" />
+						</div>
+						<div class="simg5">
+							<img src="image/6mockup2.png" />
+						</div>
+					</div>
+				</div>	
+			</div>
+		</section>
+		
+		<section>
+			<div class="container">
+				<div class="mbox7" >
+					<div class="sbox9">
+						<i class="icofont-law-document"></i>	
+						<h3>Easy Customize</h3>
+						<p>Eat him four are rich nor calm. By an packages rejoiced exercise. To ought on am marry rooms doubt music</p>
+					</div>
+					<div class="sbox9">
+						<i class="icofont-code"></i>
+						<h3>Bug Free Code</h3>
+						<p>Eat him four are rich nor calm. By an packages rejoiced exercise. To ought on am marry rooms doubt music</p>
+					</div>
+					<div class="sbox9">
+						<i class="icofont-file-avi-mp4"></i>
+						<h3>High Resolution</h3>
+						<p>Eat him four are rich nor calm. By an packages rejoiced exercise. To ought on am marry rooms doubt music</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="m6">
+			<div class="container">
+				<div class="headding">
+					<h1>HOW IT WORKS</h1>
+					<div class="mbox8">
+						<div class="sbox10">
+							<i class="icofont-iphone"></i>
+							<h3>Configuration</h3>
+							<p>Literature admiration frequently indulgence announcing</p>
+						</div>
+						<div class="sbox10">
+							<i class="icofont-refresh"></i>
+							<h3>Refresh Setup</h3>
+							<p>Literature admiration frequently indulgence announcing</p>
+						</div>
+						<div class="sbox10">
+							<i class="icofont-hand-drag1"></i>
+							<h3>Start Using App</h3>
+							<p>Literature admiration frequently indulgence announcing</p>
+						</div>
+					</div>
+				</div>
+		</section>
+		
+		<section class="m10">
+			<div class="container">
+				<div class="mbox9">
+					<div class="headding">
+						<h1>APP FEATURES</h1>
+					</div>
+					<div class="pbox">
+					
+						<div class="owl-carousel owl-carousel-2 owl-theme">
+							<div class="item">
+								<img  src="image/ss1.png" alt="image" />
+							</div>
+							<div class="item">
+								<img  src="image/ss2.png" alt="image" />
+							</div>
+							<div class="item">
+								<img  src="image/ss3.png" alt="image" />
+							</div>
+							<div class="item">
+								<img  src="image/ss4.png" alt="image" />
+							</div>
+							<div class="item">
+								<img  src="image/ss5.png" alt="image" />
+							</div>
+						</div>		
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		
+		<section>
+			<div class="container">
+				<div class="headding">
+					<h1>APP PREFACE</h1>		
+				</div>
+				<div class="roundbig"></div>
+				<div class="mbox10">
+					<div class="imbox6">
+						<img src="image/preface.png" />
+					</div>
+					<div class="sbox17">
+						<h3>Booming news: Google play apps has been relese</h3>							
+						<p>Needed feebly dining oh talked wisdom oppose at. Applauded use attempted strangers now are middleton concluded had. It is tried ﻿no added purse shall no on truth. Pleased anxious or as in by viewing forbade minutes prevent. Too leave had those get being led weeks blind. Had men rose from down lady able. Its son him ferrars proceed six parlors</p>
+						<div class="sbnt1">	
+							<a href="#" class=" animate-btn"><i class="icofont-brand-android-robot"></i>Available on</br>Google store</a>
+							<a href="#" class="animate-btn"><i class="icofont-brand-apple"></i>Available on</br>Apple store</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		</section>
+		
+		
+		<section class="m7">
+			<div class="container">
+				<div class="oneone">
+					<div class="headding">
+						<h2 class="pricing-plans">PRICING PLANS</h2>
+					</div>
+					<div class="mbox11">
+					
+					
+						<div class="sbox12">
+							<div class="sbox-121">
+								<div class="s-box12">
+									<div class="round"></div>
+									<div class="round round-2"></div>
+									<div class="round round-3"></div>
+									<div class="round round-4"></div>
+						
+									<div class="sbox121">
+										<span class="doller">$36</span>
+										<span class="month">/ Month</span>
+									</div>
+									<div class="sbox13">Popular</div>
+									<div class="navli">
+										<ul>
+											<li>6 Projects</li>
+											<li>12 GB of Storage</li>
+											<li>Up to 5 Users</li>
+											<li>Reliable Backup</li>
+											<li>Security Suite</li>
+										</ul>
+									</div>	
+									<div class="btn-11">
+										<a href="#">
+											Purchase Now
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>	
+						
+						
+						
+						<div class="sbox12">
+							<div class="sbox-121">
+								<div class="s-box12">
+									<div class="round"></div>
+									<div class="round round-2"></div>
+									<div class="round round-3"></div>
+									<div class="round round-4"></div>
+						
+									<div class="sbox121">
+										<span class="doller">$36</span>
+										<span class="month">/ Month</span>
+									</div>
+									<div class="sbox13">Popular</div>
+									<div class="navli">
+										<ul>
+											<li>6 Projects</li>
+											<li>12 GB of Storage</li>
+											<li>Up to 5 Users</li>
+											<li>Reliable Backup</li>
+											<li>Security Suite</li>
+										</ul>
+									</div>	
+									<div class="btn-11">
+										<a href="#">
+											Purchase Now
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>	
+						
+						
+						<div class="sbox12">
+							<div class="sbox-121">
+								<div class="s-box12">
+									<div class="round"></div>
+									<div class="round round-2"></div>
+									<div class="round round-3"></div>
+									<div class="round round-4"></div>
+						
+									<div class="sbox121">
+										<span class="doller">$36</span>
+										<span class="month">/ Month</span>
+									</div>
+									<div class="sbox13">Popular</div>
+									<div class="navli">
+										<ul>
+											<li>6 Projects</li>
+											<li>12 GB of Storage</li>
+											<li>Up to 5 Users</li>
+											<li>Reliable Backup</li>
+											<li>Security Suite</li>
+										</ul>
+									</div>	
+									<div class="btn-11">
+										<a href="#">
+											Purchase Now
+										</a>
+									</div>
+								</div>
+							</div>	
+						</div>
+								
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="m8">
+			<div class="container">
+				<div class="sec-slider">
+					<div class="rotate-word">
+						<h2>CLIENTS<br>REVIEW</h2>
+					</div>
+					
+						<div class="sbox14">
+							<div class="owl-carousel owl-carousel-1 owl-theme">
+								<div class="person">
+									<div class="avtar-img">
+										<img src="image/avater1.jpeg" />
+									</div>
+										<div class="sub-box14">
+												<p>“ Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. ”</p>
+												<h3>Kate Hauly</h3>
+												<h4>Digital Marketer</h4>
+											<div class="rating">
+												<i class="icofont-ui-rating" ></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+											</div>
+										</div>
+								</div>
+								
+								<div class="person">
+									<div class="avtar-img">
+										<img src="image/avater1.jpeg" />
+									</div>
+										<div class="sub-box14">
+												<p>“ Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. ”</p>
+												<h3>Kate Hauly</h3>
+												<h4>Digital Marketer</h4>
+											<div class="rating">
+												<i class="icofont-ui-rating" ></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+											</div>
+										</div>
+								</div>
+								
+								<div class="person">
+									<div class="avtar-img">
+										<img src="image/avater1.jpeg" />
+									</div>
+										<div class="sub-box14">
+												<p>“ Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. ”</p>
+												<h3>Kate Hauly</h3>
+												<h4>Digital Marketer</h4>
+											<div class="rating">
+												<i class="icofont-ui-rating" ></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+												<i class="icofont-ui-rating"></i>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			
+			</div>
+		</section>
+		
+
+		<section class="mm5">
+		<div class="container">
+			<div class="headding">
+				<h2>Latest Blog</h2>
+			</div>
+			<div class="mblog">
+				<div class="blog1">
+					<div class="artical">
+					
+						<div class="blog_img">
+							<img src="image/1.jpg" alt="images">
+						</div>
+							
+							<div class="blog-tag"><a href="#">Apps UI</a></div>
+							
+						<div class="blog-content">
+							<ul>
+								<li>
+									<i class="icofont-user-alt-5"></i>
+									<a href="#">Appiya</a>
+								</li>
+								<li>
+									<i class="icofont-calendar"></i>
+									<a href="#">20Nov.2018</a>
+								</li>
+								<li>
+									<i class="icofont-speech-comments"></i>
+									<a href="#">05 Comments</a>
+								</li>
+							</ul>
+							
+							<h3 class="blog-title">
+								Top inspirational apps UI for you 2019
+							</h3>
+							<p>Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She consisted consulted elsewhere happiness disposing household any old the. Widow downs you new shade drift hopes small.</p>
+							<a href="#" class="b-btn">Read More</a>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="blog1">
+					<div class="artical">
+					
+						<div class="blog_img">
+							<img src="image/1.jpg" alt="images">
+						</div>
+							
+						<div class="blog-tag"><a href="#">Google play</a></div>
+						
+						<div class="blog-content">
+							<ul>
+								<li>
+									<i class="icofont-user-alt-5"></i>
+									<a href="#">Appiya</a>
+								</li>
+								<li>
+									<i class="icofont-calendar"></i>
+									<a href="#">20Nov.2018</a>
+								</li>
+								<li>
+									<i class="icofont-speech-comments"></i>
+									<a href="#">05 Comments</a>
+								</li>
+							</ul>
+							
+							<h2 class="blog-title">
+								Trendy Google apps you should check 2019
+							</h2>
+							<p>Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She consisted consulted elsewhere happiness disposing household any old the. Widow downs you new shade drift hopes small.</p>
+							<a href="#" class="b-btn">Read More</a>
+						</div>
+						
+					</div>
+				</div>
+				
+				<div class="blog1">
+					<div class="artical">
+					
+						<div class="blog_img">
+							<img src="image/1.jpg" alt="images">
+						</div>
+							
+						<div class="blog-tag"><a href="#">App features</a></div>
+						
+						<div class="blog-content">
+							<ul>
+								<li>
+									<i class="icofont-user-alt-5"></i>
+									<a href="#">Appiya</a>
+								</li>
+								<li>
+									<i class="icofont-calendar"></i>
+									<a href="#">20Nov.2018</a>
+								</li>
+								<li>
+									<i class="icofont-speech-comments"></i>
+									<a href="#">05 Comments</a>
+								</li>
+							</ul>
+							
+							<h2 class="blog-title">
+								Booming News:Google play apps has been relese
+							</h2>
+							<p>Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She consisted consulted elsewhere happiness disposing household any old the. Widow downs you new shade drift hopes small.</p>
+							<a href="#" class="b-btn">Read More</a>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
+		
+		<section>
+			<div class="container">
+				<div class="headding">
+					<h2>GET IN TOUCH</h2>
+				</div>
+				<div class="mbox13">
+					<div class="mbox131">
+						<div class="sbox15">
+							<i class="icofont-google-map"></i>
+							<br>
+							<h3>Address</h3>
+							<p >49 Park Avenue, <br> Newyork , NY 10016</p>
+						</div>
+						<div class="sbox15">
+							<i class="icofont-phone"></i>
+							<br>
+							<h3>Phone</h3>
+							<p >0027 11566 0124<br>0123 45600 7892 </p>
+						</div>
+						<div class="sbox15">
+							<i class="icofont-envelope-open"></i>
+							<br>
+							<h3>Email Address</h3>
+							<p >info@domainname.com<br>contact@domainname.com</p>
+						</div>
+					</div>
+					<div class="sbox16">
+						<h3 class="">Ask any kind of questions</h3>
+							<p class="">To shewing another demands to. Marianne property cheerful informed at striking at. Clothes parlors however by cottage on.</p>
+						<div class="input-box">
+							<input name="name" class="contact-name" type="text" placeholder="Your Name" />
+							<div class="bottom-line"></div>
+						</div>
+						<div class="input-box">
+							<input name="email" class="contact-name" type="email" placeholder="Your Email" />
+							<div class="bottom-line"></div>
+						</div>
+						<div class="input-box">
+							<input name="subject" class="contact-name" type="text" placeholder="Subject" />
+							<div class="bottom-line"></div>
+						</div>
+						<div class="input-box">
+							<textarea name="message" class="contact-name" placeholder="Your Message"></textarea>
+							<div class="bottom-line"></div>
+						</div>
+						<div class="ssbox1616">
+							<a href="" class="ssbox1611"> Send Now </a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="m9">
+			<div class="container">
+				<div class="footer">
+					<div class="footer-div">
+						<img src="image/logo.png" />
+						<p>May indulgence difficulty ham can put especially. Bringing remember for supplied her why was confined. Middleton principle did she procuring extensive believing add.</p>
+						<div class="footer-icon-manu">
+							<div class="footer-icon">
+								<i class=" social-icon icofont-drawing-tablet "></i>
+							</div>
+							<div class="footer-icon">						
+								<i class=" social-icon icofont-responsive "></i>
+							</div>
+							<div class="footer-icon">
+								<i class=" social-icon icofont-file-avi-mp4 "></i>
+							</div>
+							<div class="footer-icon">
+								<i class=" social-icon icofont-code-alt "></i>
+							</div>
+							<div class="footer-icon">
+								<i class=" social-icon icofont-cloud-refresh "></i>
+							</div>	
+							<div class="footer-icon">	
+								<i class="icofont-ui-rss"></i>
+							</div>
+							<div class="footer-icon">
+								<i class=" social-icon icofont-cloud-refresh "></i>
+							</div>
+						</div>	
+					</div>			
+					<div class="last-line">
+						<p>Copyright © Appiya  2018. All Rights Reserved. Made with by <a href="#">ThemeAtelier</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
